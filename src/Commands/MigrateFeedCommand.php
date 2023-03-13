@@ -45,7 +45,7 @@ class MigrateFeedCommand extends DrushCommands {
     $conent = new \SimpleXmlElement($contentXML);
     $numNodesCreated = 0;
 
-    foreach($conentArr as $entry) {
+    foreach($conent as $entry) {
       //creates a new node based on the infos from the entry object
       $articleNode = $this->entityTypeManager->getStorage('node')->create([
         'type' => 'article',
