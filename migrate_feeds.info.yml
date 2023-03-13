@@ -1,0 +1,4 @@
+name: 'Migrate Feeds using custom drush command'
+type: module
+description: 'Modules to migrate feeds to article using custom drush command.'
+core_version_requirement: ^8 || ^9

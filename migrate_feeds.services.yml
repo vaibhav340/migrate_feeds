@@ -1,0 +1,6 @@
+services:
+  migrate_feeds.drush_commands:
+    class: \Drupal\migrate_feeds\Commands\MigrateFeedCommand
+    tags:
+      - { name: drush.command }
+    arguments: ['@entity_type.manager']

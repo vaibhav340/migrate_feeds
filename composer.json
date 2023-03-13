@@ -1,0 +1,17 @@
+{
+  "name": "drupal/migrate_feeds",
+  "description": "A example module for Drush 9 commands.",
+  "type": "drupal-module",
+  "autoload": {
+    "psr-4": {
+      "Drupal\\migrate_feeds\\": "src/"
+    }
+  },
+  "extra": {
+    "drush": {
+      "services": {
+        "drush.services.yml": "^9"
+      }
+    }
+  }
+}
